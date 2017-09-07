@@ -1,0 +1,45 @@
+#include "direction_validator_delegate.h"
+
+#include <QLineEdit>
+#include <QRegExp>
+#include <QRegExpValidator>
+
+ItemDelegate::ItemDelegate( QObject* parent ) :
+    QItemDelegate( parent ) {}
+
+QWidget* ItemDelegate::createEditor( QWidget* parent,
+                                     const QStyleOptionViewItem& option,
+                                     const QModelIndex& index ) const
+{
+    QLineEdit* editor = new QLineEdit( parent );
+    QRegExp* re = new QRegExp("(export)|(import)");
+    editor->setValidator( new QRegExpValidator( re, editor ) );
+    return editor;
+}
+
+
+void ItemDelegate::setEditorData( QWidget* editor,
+                                  const QModelIndex& index ) const
+{
+    QString value = index.model()->data( index, Qt::EditRole ).toString();
+        QLineEdit* line = static_cast<QLineEdit*>( editor );
+        if( value == "i" ) {
+            line->setText("import");
+        } else {
+            line->setText("export");
+        }
+}
+
+
+void ItemDelegate::setModelData( QWidget *editor,
+                                 QAbstractItemModel *model,
+                                 const QModelIndex &index ) const
+{
+    QLineEdit *line = static_cast<QLineEdit*>( editor );
+    QString value = line->text();
+    if( value == "import" ) {
+        model->setData( index, "i" );
+    } else {
+        model-setData( index, "e" );
+    }
+}

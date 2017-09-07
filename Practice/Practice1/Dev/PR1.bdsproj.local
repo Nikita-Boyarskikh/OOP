@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016.09.06 22:58:59.953.bdsproj,C:\Documents and Settings\User\Мои документы\Borland Studio Projects\Project1.bdsproj=C:\Documents and Settings\User\Мои документы\Borland Studio Projects\Project1.bdsproj</Transaction>
+    <Transaction>2017.03.15 00:19:43.453.pas,C:\Documents and Settings\User\Мои документы\Borland Studio Projects\Unit2.pas=C:\Documents and Settings\User\Мои документы\Borland Studio Projects\CSVParser.pas</Transaction>
+    <Transaction>2017.03.15 07:04:09.359.pas,C:\Documents and Settings\User\Мои документы\Borland Studio Projects\Unit1.pas=I:\Объектно-ориентированное программирование\Практикум\PR1.pas</Transaction>
+    <Transaction>2017.03.15 07:04:09.375.dfm,C:\Documents and Settings\User\Мои документы\Borland Studio Projects\Unit1.dfm=I:\Объектно-ориентированное программирование\Практикум\PR1.dfm</Transaction>
+    <Transaction>2017.03.15 07:04:12.656.pas,C:\Documents and Settings\User\Мои документы\Borland Studio Projects\CSVParser.pas=I:\Объектно-ориентированное программирование\Практикум\CSVParser.pas</Transaction>
+    <Transaction>2017.03.15 07:05:11.390.pas,I:\Объектно-ориентированное программирование\Практикум\PR1.pas=I:\Объектно-ориентированное программирование\Практикум\Main.pas</Transaction>
+    <Transaction>2017.03.15 07:05:11.390.dfm,I:\Объектно-ориентированное программирование\Практикум\PR1.dfm=I:\Объектно-ориентированное программирование\Практикум\Main.dfm</Transaction>
+    <Transaction>2017.03.15 07:05:22.390.bdsproj,C:\Documents and Settings\User\Мои документы\Borland Studio Projects\Project1.bdsproj=I:\Объектно-ориентированное программирование\Практикум\PR1.bdsproj</Transaction>
+    <Transaction>2017.03.16 21:29:19.062.pas,I:\Объектно-ориентированное программирование\Практикум\Unit1.pas=I:\Объектно-ориентированное программирование\Практикум\Graphic.pas</Transaction>
+    <Transaction>2017.03.20 12:24:32.609.pas,I:\Объектно-ориентированное программирование\Практикум\Unit1.pas=I:\Объектно-ориентированное программирование\Практикум\QuickSort.pas</Transaction>
+  </Transactions>
+</BorlandProject>
