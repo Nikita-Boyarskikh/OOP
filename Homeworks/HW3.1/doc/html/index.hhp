@@ -1,0 +1,59 @@
+[OPTIONS]
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x419 Russian
+Title=Домашнее задание №3.1
+
+[WINDOWS]
+main="Домашнее задание №3.1","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+HW3_81_8h_source.html
+HW3_81_8hpp_source.html
+HW3_81_8cpp.html
+HW3_81_8h.html
+HW3_81_8hpp.html
+classSentence.html
+classSentence-members.html
+classWord.html
+classWord-members.html
+graph_legend.html
+index.html
+annotated.html
+classes.html
+hierarchy.html
+inherits.html
+functions.html
+functions_func.html
+functions_vars.html
+files.html
+globals.html
+globals_func.html
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png
+nav_h.png
+nav_f.png
+bc_s.png
+doxygen.png
+closed.png
+open.png
+bdwn.png
+sync_on.png
+sync_off.png
+HW3_81_8cpp__incl.png
+HW3_81_8h__incl.png
+HW3_81_8h__dep__incl.png
+HW3_81_8hpp__incl.png
+HW3_81_8hpp__dep__incl.png
+classSentence__inherit__graph.png
+classSentence__coll__graph.png
+classWord__inherit__graph.png
+classWord__coll__graph.png
+graph_legend.png
+inherit_graph_0.png

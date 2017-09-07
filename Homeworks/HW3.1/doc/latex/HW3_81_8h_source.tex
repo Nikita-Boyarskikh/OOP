@@ -1,0 +1,53 @@
+\hypertarget{HW3_81_8h_source}{}\section{H\+W3.1.h}
+
+\begin{DoxyCode}
+00001 \textcolor{preprocessor}{#ifndef HW31\_H}
+00002 \textcolor{preprocessor}{#define HW31\_H}
+00003 
+00004 \textcolor{preprocessor}{#include <string>}
+00005 \textcolor{preprocessor}{#include <vector>}
+00006 
+00007 \textcolor{keyword}{using} std::string;
+00008 \textcolor{keyword}{using} std::vector;
+00009 
+\hypertarget{HW3_81_8h_source.tex_l00010}{}\hyperlink{classWord}{00010} \textcolor{keyword}{class }\hyperlink{classWord}{Word} \{
+00011   \textcolor{keyword}{protected}:
+\hypertarget{HW3_81_8h_source.tex_l00012}{}\hyperlink{classWord_a17baf7109d46beb48d5b469f3baedc48}{00012}     \hyperlink{classWord_a17baf7109d46beb48d5b469f3baedc48}{Word}() \{\};
+\hypertarget{HW3_81_8h_source.tex_l00013}{}\hyperlink{classWord_a5c77b083065c497224d3ad4b0b5958de}{00013}     constexpr \textcolor{keyword}{static} \textcolor{keywordtype}{char} \hyperlink{classWord_a5c77b083065c497224d3ad4b0b5958de}{\_vowels}[] = \textcolor{stringliteral}{"AEUIOaeuio"};
+00014     \textcolor{keywordtype}{void} \hyperlink{classWord_a6a557d92243a1a4aa0f7a874b3c66a22}{\_init}(\textcolor{keyword}{const} \textcolor{keywordtype}{char} *s);
+\hypertarget{HW3_81_8h_source.tex_l00015}{}\hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{00015}     \textcolor{keywordtype}{string} \hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\_data};
+\hypertarget{HW3_81_8h_source.tex_l00016}{}\hyperlink{classWord_a95a4914370c936b524ab21ff42177fb8}{00016}     \textcolor{keywordtype}{size\_t} \hyperlink{classWord_a95a4914370c936b524ab21ff42177fb8}{\_num\_vowels};
+\hypertarget{HW3_81_8h_source.tex_l00017}{}\hyperlink{classWord_afffea82d937c3486011b409bcff4c938}{00017}     \textcolor{keywordtype}{size\_t} \hyperlink{classWord_afffea82d937c3486011b409bcff4c938}{\_spaces};
+00018 
+00019   \textcolor{keyword}{public}:
+\hypertarget{HW3_81_8h_source.tex_l00020}{}\hyperlink{classWord_ac6f487c9336bcddcdca8d149d7c3ccb5}{00020}     \hyperlink{classWord_ac6f487c9336bcddcdca8d149d7c3ccb5}{Word}(\textcolor{keyword}{const} \hyperlink{classWord}{Word} &w) : \_data(w.\_data), \_num\_vowels(w.\_num\_vowels), \_spaces(w.\_spaces) \{\};
+00021     \hyperlink{classWord_a17baf7109d46beb48d5b469f3baedc48}{Word}(\textcolor{keywordtype}{string} s);
+00022     \hyperlink{classWord_a17baf7109d46beb48d5b469f3baedc48}{Word}(\textcolor{keyword}{const} \textcolor{keywordtype}{char} *s);
+00023     \textcolor{keywordtype}{void} \hyperlink{classWord_a71f14ead088ecaf6941f9c91b75c25c9}{print}();
+00024     \textcolor{keywordtype}{string} \hyperlink{classWord_a75606ad31d249369f93c7ad83a6798e4}{to\_str}();
+00025     \textcolor{keywordtype}{void} \hyperlink{classWord_ab02157e87243aad185d0f8f4c33862a4}{to\_cstr}(\textcolor{keywordtype}{char} *arr);
+00026     \textcolor{keywordtype}{size\_t} \hyperlink{classWord_a450a0259aba9504e3f7d6d4fa363cd7a}{count\_vowels}();
+00027     \textcolor{keywordtype}{size\_t} \hyperlink{classWord_a61af6d4fa64014ce6d237657d058c57f}{count\_consonants}();
+00028     \textcolor{keywordtype}{float} \hyperlink{classWord_aa19ec4d5e0b9ab9cd5f3cf54d9c4c106}{consonant\_percentage}();
+00029     \textcolor{keywordtype}{float} \hyperlink{classWord_aa8e6259183ceaa15497d704c4c92b70a}{vowel\_percentage}();
+00030 \};
+00031 
+00032 
+\hypertarget{HW3_81_8h_source.tex_l00033}{}\hyperlink{classSentence}{00033} \textcolor{keyword}{class }\hyperlink{classSentence}{Sentence} : \textcolor{keyword}{public} \hyperlink{classWord}{Word} \{
+00034 
+00035   \textcolor{keyword}{private}:
+\hypertarget{HW3_81_8h_source.tex_l00036}{}\hyperlink{classSentence_a5ad2286635c8e8620085b48f81ae2457}{00036}     \textcolor{keywordtype}{size\_t} \hyperlink{classSentence_a5ad2286635c8e8620085b48f81ae2457}{counter};
+00037 
+00038   \textcolor{keyword}{public}:
+\hypertarget{HW3_81_8h_source.tex_l00039}{}\hyperlink{classSentence_a3048354db110b3c53f22a0e73f8a2873}{00039}     \hyperlink{classSentence_a3048354db110b3c53f22a0e73f8a2873}{Sentence}(\textcolor{keyword}{const} \hyperlink{classSentence}{Sentence} &sen) : \hyperlink{classWord}{Word}(sen.\hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\_data}), counter(sen.counter) \{\};
+00040     \hyperlink{classSentence}{Sentence}(\textcolor{keywordtype}{string} s);
+00041     \hyperlink{classSentence}{Sentence}(\textcolor{keyword}{const} \textcolor{keywordtype}{char} *s);
+00042     \hyperlink{classSentence}{Sentence}(\hyperlink{classWord}{Word} w);
+00043     \hyperlink{classSentence}{Sentence}(vector <string> v);
+00044     vector <string> to\_str\_vec();
+00045     \textcolor{keywordtype}{size\_t} count();
+00046 \};
+00047 
+00048 \textcolor{preprocessor}{#include "\hyperlink{HW3_81_8hpp}{HW3.1.hpp}"}
+00049 \textcolor{preprocessor}{#endif  // HW31\_H}
+\end{DoxyCode}

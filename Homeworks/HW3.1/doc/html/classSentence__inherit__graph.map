@@ -1,0 +1,3 @@
+<map id="Sentence" name="Sentence">
+<area shape="rect" id="node2" href="$classWord.html" title="{Word\n|# _data\l# _num_vowels\l# _spaces\l# _vowels\l|+ Word()\l+ Word()\l+ Word()\l+ print()\l+ to_str()\l+ to_cstr()\l+ count_vowels()\l+ count_consonants()\l+ consonant_percentage()\l+ vowel_percentage()\l# Word()\l# _init()\l}" alt="" coords="5,5,179,288"/>
+</map>

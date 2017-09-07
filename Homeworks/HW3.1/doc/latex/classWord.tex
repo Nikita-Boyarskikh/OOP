@@ -1,0 +1,179 @@
+\hypertarget{classWord}{}\section{Класс Word}
+\label{classWord}\index{Word@{Word}}
+
+
+{\ttfamily \#include $<$H\+W3.\+1.\+h$>$}
+
+
+
+Граф наследования\+:Word\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{classWord__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Граф связей класса Word\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{classWord__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classWord_ac6f487c9336bcddcdca8d149d7c3ccb5}{Word} (const \hyperlink{classWord}{Word} \&w)
+\item 
+\hyperlink{classWord_a86290013f4b538ae7aeef2720fc240ee}{Word} (string s)
+\item 
+\hyperlink{classWord_a7f27bc6191af83d7fce1a16838081872}{Word} (const char $\ast$s)
+\item 
+void \hyperlink{classWord_a71f14ead088ecaf6941f9c91b75c25c9}{print} ()
+\item 
+string \hyperlink{classWord_a75606ad31d249369f93c7ad83a6798e4}{to\+\_\+str} ()
+\item 
+void \hyperlink{classWord_ab02157e87243aad185d0f8f4c33862a4}{to\+\_\+cstr} (char $\ast$arr)
+\item 
+size\+\_\+t \hyperlink{classWord_a450a0259aba9504e3f7d6d4fa363cd7a}{count\+\_\+vowels} ()
+\item 
+size\+\_\+t \hyperlink{classWord_a61af6d4fa64014ce6d237657d058c57f}{count\+\_\+consonants} ()
+\item 
+float \hyperlink{classWord_aa19ec4d5e0b9ab9cd5f3cf54d9c4c106}{consonant\+\_\+percentage} ()
+\item 
+float \hyperlink{classWord_aa8e6259183ceaa15497d704c4c92b70a}{vowel\+\_\+percentage} ()
+\end{DoxyCompactItemize}
+\subsection*{Защищенные члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classWord_a17baf7109d46beb48d5b469f3baedc48}{Word} ()
+\item 
+void \hyperlink{classWord_a6a557d92243a1a4aa0f7a874b3c66a22}{\+\_\+init} (const char $\ast$s)
+\end{DoxyCompactItemize}
+\subsection*{Защищенные данные}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\+\_\+data}
+\item 
+size\+\_\+t \hyperlink{classWord_a95a4914370c936b524ab21ff42177fb8}{\+\_\+num\+\_\+vowels}
+\item 
+size\+\_\+t \hyperlink{classWord_afffea82d937c3486011b409bcff4c938}{\+\_\+spaces}
+\end{DoxyCompactItemize}
+\subsection*{Статические защищенные данные}
+\begin{DoxyCompactItemize}
+\item 
+static constexpr char \hyperlink{classWord_a5c77b083065c497224d3ad4b0b5958de}{\+\_\+vowels} \mbox{[}$\,$\mbox{]} = \char`\"{}A\+E\+U\+I\+Oaeuio\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Конструктор(ы)}
+\index{Word@{Word}!Word@{Word}}
+\index{Word@{Word}!Word@{Word}}
+\subsubsection[{\texorpdfstring{Word()}{Word()}}]{\setlength{\rightskip}{0pt plus 5cm}Word\+::\+Word (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}\hypertarget{classWord_a17baf7109d46beb48d5b469f3baedc48}{}\label{classWord_a17baf7109d46beb48d5b469f3baedc48}
+\index{Word@{Word}!Word@{Word}}
+\index{Word@{Word}!Word@{Word}}
+\subsubsection[{\texorpdfstring{Word(const Word \&w)}{Word(const Word &w)}}]{\setlength{\rightskip}{0pt plus 5cm}Word\+::\+Word (
+\begin{DoxyParamCaption}
+\item[{const {\bf Word} \&}]{w}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classWord_ac6f487c9336bcddcdca8d149d7c3ccb5}{}\label{classWord_ac6f487c9336bcddcdca8d149d7c3ccb5}
+\index{Word@{Word}!Word@{Word}}
+\index{Word@{Word}!Word@{Word}}
+\subsubsection[{\texorpdfstring{Word(string s)}{Word(string s)}}]{\setlength{\rightskip}{0pt plus 5cm}Word\+::\+Word (
+\begin{DoxyParamCaption}
+\item[{string}]{s}
+\end{DoxyParamCaption}
+)}\hypertarget{classWord_a86290013f4b538ae7aeef2720fc240ee}{}\label{classWord_a86290013f4b538ae7aeef2720fc240ee}
+\index{Word@{Word}!Word@{Word}}
+\index{Word@{Word}!Word@{Word}}
+\subsubsection[{\texorpdfstring{Word(const char $\ast$s)}{Word(const char *s)}}]{\setlength{\rightskip}{0pt plus 5cm}Word\+::\+Word (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{s}
+\end{DoxyParamCaption}
+)}\hypertarget{classWord_a7f27bc6191af83d7fce1a16838081872}{}\label{classWord_a7f27bc6191af83d7fce1a16838081872}
+
+
+\subsection{Методы}
+\index{Word@{Word}!\+\_\+init@{\+\_\+init}}
+\index{\+\_\+init@{\+\_\+init}!Word@{Word}}
+\subsubsection[{\texorpdfstring{\+\_\+init(const char $\ast$s)}{_init(const char *s)}}]{\setlength{\rightskip}{0pt plus 5cm}void Word\+::\+\_\+init (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classWord_a6a557d92243a1a4aa0f7a874b3c66a22}{}\label{classWord_a6a557d92243a1a4aa0f7a874b3c66a22}
+\index{Word@{Word}!consonant\+\_\+percentage@{consonant\+\_\+percentage}}
+\index{consonant\+\_\+percentage@{consonant\+\_\+percentage}!Word@{Word}}
+\subsubsection[{\texorpdfstring{consonant\+\_\+percentage()}{consonant_percentage()}}]{\setlength{\rightskip}{0pt plus 5cm}float Word\+::consonant\+\_\+percentage (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classWord_aa19ec4d5e0b9ab9cd5f3cf54d9c4c106}{}\label{classWord_aa19ec4d5e0b9ab9cd5f3cf54d9c4c106}
+\index{Word@{Word}!count\+\_\+consonants@{count\+\_\+consonants}}
+\index{count\+\_\+consonants@{count\+\_\+consonants}!Word@{Word}}
+\subsubsection[{\texorpdfstring{count\+\_\+consonants()}{count_consonants()}}]{\setlength{\rightskip}{0pt plus 5cm}size\+\_\+t Word\+::count\+\_\+consonants (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classWord_a61af6d4fa64014ce6d237657d058c57f}{}\label{classWord_a61af6d4fa64014ce6d237657d058c57f}
+\index{Word@{Word}!count\+\_\+vowels@{count\+\_\+vowels}}
+\index{count\+\_\+vowels@{count\+\_\+vowels}!Word@{Word}}
+\subsubsection[{\texorpdfstring{count\+\_\+vowels()}{count_vowels()}}]{\setlength{\rightskip}{0pt plus 5cm}size\+\_\+t Word\+::count\+\_\+vowels (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classWord_a450a0259aba9504e3f7d6d4fa363cd7a}{}\label{classWord_a450a0259aba9504e3f7d6d4fa363cd7a}
+\index{Word@{Word}!print@{print}}
+\index{print@{print}!Word@{Word}}
+\subsubsection[{\texorpdfstring{print()}{print()}}]{\setlength{\rightskip}{0pt plus 5cm}void Word\+::print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classWord_a71f14ead088ecaf6941f9c91b75c25c9}{}\label{classWord_a71f14ead088ecaf6941f9c91b75c25c9}
+\index{Word@{Word}!to\+\_\+cstr@{to\+\_\+cstr}}
+\index{to\+\_\+cstr@{to\+\_\+cstr}!Word@{Word}}
+\subsubsection[{\texorpdfstring{to\+\_\+cstr(char $\ast$arr)}{to_cstr(char *arr)}}]{\setlength{\rightskip}{0pt plus 5cm}void Word\+::to\+\_\+cstr (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{arr}
+\end{DoxyParamCaption}
+)}\hypertarget{classWord_ab02157e87243aad185d0f8f4c33862a4}{}\label{classWord_ab02157e87243aad185d0f8f4c33862a4}
+\index{Word@{Word}!to\+\_\+str@{to\+\_\+str}}
+\index{to\+\_\+str@{to\+\_\+str}!Word@{Word}}
+\subsubsection[{\texorpdfstring{to\+\_\+str()}{to_str()}}]{\setlength{\rightskip}{0pt plus 5cm}string Word\+::to\+\_\+str (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classWord_a75606ad31d249369f93c7ad83a6798e4}{}\label{classWord_a75606ad31d249369f93c7ad83a6798e4}
+\index{Word@{Word}!vowel\+\_\+percentage@{vowel\+\_\+percentage}}
+\index{vowel\+\_\+percentage@{vowel\+\_\+percentage}!Word@{Word}}
+\subsubsection[{\texorpdfstring{vowel\+\_\+percentage()}{vowel_percentage()}}]{\setlength{\rightskip}{0pt plus 5cm}float Word\+::vowel\+\_\+percentage (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classWord_aa8e6259183ceaa15497d704c4c92b70a}{}\label{classWord_aa8e6259183ceaa15497d704c4c92b70a}
+
+
+\subsection{Данные класса}
+\index{Word@{Word}!\+\_\+data@{\+\_\+data}}
+\index{\+\_\+data@{\+\_\+data}!Word@{Word}}
+\subsubsection[{\texorpdfstring{\+\_\+data}{_data}}]{\setlength{\rightskip}{0pt plus 5cm}string Word\+::\+\_\+data\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classWord_adc46545d81f0158074f941731ae5bb52}{}\label{classWord_adc46545d81f0158074f941731ae5bb52}
+\index{Word@{Word}!\+\_\+num\+\_\+vowels@{\+\_\+num\+\_\+vowels}}
+\index{\+\_\+num\+\_\+vowels@{\+\_\+num\+\_\+vowels}!Word@{Word}}
+\subsubsection[{\texorpdfstring{\+\_\+num\+\_\+vowels}{_num_vowels}}]{\setlength{\rightskip}{0pt plus 5cm}size\+\_\+t Word\+::\+\_\+num\+\_\+vowels\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classWord_a95a4914370c936b524ab21ff42177fb8}{}\label{classWord_a95a4914370c936b524ab21ff42177fb8}
+\index{Word@{Word}!\+\_\+spaces@{\+\_\+spaces}}
+\index{\+\_\+spaces@{\+\_\+spaces}!Word@{Word}}
+\subsubsection[{\texorpdfstring{\+\_\+spaces}{_spaces}}]{\setlength{\rightskip}{0pt plus 5cm}size\+\_\+t Word\+::\+\_\+spaces\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classWord_afffea82d937c3486011b409bcff4c938}{}\label{classWord_afffea82d937c3486011b409bcff4c938}
+\index{Word@{Word}!\+\_\+vowels@{\+\_\+vowels}}
+\index{\+\_\+vowels@{\+\_\+vowels}!Word@{Word}}
+\subsubsection[{\texorpdfstring{\+\_\+vowels}{_vowels}}]{\setlength{\rightskip}{0pt plus 5cm}constexpr char Word\+::\+\_\+vowels = \char`\"{}A\+E\+U\+I\+Oaeuio\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}\hypertarget{classWord_a5c77b083065c497224d3ad4b0b5958de}{}\label{classWord_a5c77b083065c497224d3ad4b0b5958de}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{HW3_81_8h}{H\+W3.\+1.\+h}\item 
+\hyperlink{HW3_81_8hpp}{H\+W3.\+1.\+hpp}\end{DoxyCompactItemize}

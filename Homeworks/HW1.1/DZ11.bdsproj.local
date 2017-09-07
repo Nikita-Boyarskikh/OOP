@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016.09.06 22:58:59.953.bdsproj,C:\Documents and Settings\User\Мои документы\Borland Studio Projects\Project1.bdsproj=C:\Documents and Settings\User\Мои документы\Borland Studio Projects\Project1.bdsproj</Transaction>
+    <Transaction>2017.02.13 22:13:34.546.pas,C:\Documents and Settings\User\Мои документы\Borland Studio Projects\Unit1.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ1.1\Main.pas</Transaction>
+    <Transaction>2017.02.13 22:13:34.546.dfm,C:\Documents and Settings\User\Мои документы\Borland Studio Projects\Unit1.dfm=I:\Объектно-ориентированное программирование\ДЗ\ДЗ1.1\Main.dfm</Transaction>
+    <Transaction>2017.02.13 22:13:55.781.bdsproj,C:\Documents and Settings\User\Мои документы\Borland Studio Projects\Project1.bdsproj=I:\Объектно-ориентированное программирование\ДЗ\ДЗ1.1\DZ11.bdsproj</Transaction>
+    <Transaction>2017.02.13 22:28:13.515.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ1.1\Unit1.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ1.1\Figures.pas</Transaction>
+    <Transaction>2017.02.13 22:41:08.281.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ1.1\Figures.pas=</Transaction>
+    <Transaction>2017.02.13 22:41:51.218.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ1.1\Figures.pas=</Transaction>
+    <Transaction>2017.02.13 22:53:23.359.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ1.1\Unit1.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ1.1\Figures.pas</Transaction>
+    <Transaction>2017.02.13 22:53:48.093.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ1.1\Figures.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ1.1\R.pas</Transaction>
+    <Transaction>2017.02.13 22:53:55.921.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ1.1\R.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ1.1\Figures.pas</Transaction>
+    <Transaction>2017.03.08 02:58:51.875.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Unit1.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\TDot3.pas</Transaction>
+    <Transaction>2017.03.08 02:59:05.718.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\TDot3.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Dot3.pas</Transaction>
+    <Transaction>2017.03.08 02:59:11.546.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Dot3.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Dot.pas</Transaction>
+    <Transaction>2017.03.08 03:00:56.875.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Unit1.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Vector.pas</Transaction>
+    <Transaction>2017.03.08 03:03:07.093.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Dot.pas=</Transaction>
+    <Transaction>2017.03.08 03:15:43.281.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Unit1.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Line.pas</Transaction>
+    <Transaction>2017.03.08 03:21:54.984.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Figures.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Triangle.pas</Transaction>
+    <Transaction>2017.03.08 03:34:00.312.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Unit1.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Figure.pas</Transaction>
+    <Transaction>2017.03.09 00:22:54.640.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Unit2.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Stack.pas</Transaction>
+    <Transaction>2017.03.09 00:41:29.921.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Unit1.pas=</Transaction>
+    <Transaction>2017.03.09 00:41:35.593.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Stack.pas=</Transaction>
+    <Transaction>2017.03.09 00:47:30.421.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Unit1.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Templater.pas</Transaction>
+    <Transaction>2017.03.09 23:56:48.546.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Vector.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\IntVector.pas</Transaction>
+    <Transaction>2017.03.10 00:21:44.625.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Line.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\IntLine.pas</Transaction>
+    <Transaction>2017.03.10 00:23:52.578.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Figure.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\BaseFigure.pas</Transaction>
+    <Transaction>2017.03.10 00:24:19.078.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Unit1.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\IntFigure.pas</Transaction>
+    <Transaction>2017.03.10 00:40:52.265.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Templates\Line\IntLine.pas=</Transaction>
+    <Transaction>2017.03.10 00:40:58.843.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Templates\Line\LongintLine.pas=</Transaction>
+    <Transaction>2017.03.10 00:41:04.281.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Templates\Line\ShortintLine.pas=</Transaction>
+    <Transaction>2017.03.10 00:47:04.625.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Templates\Triangle\Triangle.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 3\Часть 1\Templates\Triangle\DoubleTriangle.pas</Transaction>
+    <Transaction>2017.03.22 01:42:09.593.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 1\Часть 1\Graphics\RealVector.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 1\Часть 1\Graphics\ExtendedVector.pas</Transaction>
+    <Transaction>2017.03.22 01:42:18.750.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 1\Часть 1\Graphics\RealTriangle.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 1\Часть 1\Graphics\ExtendedTriangle.pas</Transaction>
+    <Transaction>2017.03.22 01:42:26.359.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 1\Часть 1\Graphics\RealLine.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 1\Часть 1\Graphics\ExtendedLine.pas</Transaction>
+    <Transaction>2017.03.22 01:42:33.015.pas,I:\Объектно-ориентированное программирование\ДЗ\ДЗ 1\Часть 1\Graphics\RealFigure.pas=I:\Объектно-ориентированное программирование\ДЗ\ДЗ 1\Часть 1\Graphics\ExtendedFigure.pas</Transaction>
+    <Transaction>2017.06.15 02:30:08.777.txvpck,H:\OOP\Homeworks\HW1.1\ModelSupport_DZ11\ExtendedLine\default.txvpck=</Transaction>
+    <Transaction>2017.06.15 02:30:09.090.txvpck,H:\OOP\Homeworks\HW1.1\ModelSupport_DZ11\ExtendedTriangle\default.txvpck=</Transaction>
+    <Transaction>2017.06.15 02:30:11.230.txaPackage,H:\OOP\Homeworks\HW1.1\ModelSupport_DZ11\BaseFigure\default.txaPackage=</Transaction>
+    <Transaction>2017.06.15 02:30:11.246.txaPackage,H:\OOP\Homeworks\HW1.1\ModelSupport_DZ11\ExtendedVector\default.txaPackage=</Transaction>
+    <Transaction>2017.06.15 02:30:11.261.txaPackage,H:\OOP\Homeworks\HW1.1\ModelSupport_DZ11\ExtendedFigure\default.txaPackage=</Transaction>
+    <Transaction>2017.06.15 02:30:46.746.pas,H:\OOP\Homeworks\HW1.1\Unit1.pas=H:\OOP\Homeworks\HW1.1\ExtendedPiramid.pas</Transaction>
+    <Transaction>2017.06.15 02:33:24.808.pas,H:\OOP\Homeworks\HW1.1\ExtendedPiramid.pas=H:\OOP\Homeworks\HW1.1\Graphics\ExtendedPiramid.pas</Transaction>
+    <Transaction>2017.06.15 04:45:45.183.pas,H:\OOP\Homeworks\HW1.1\Unit1.pas=H:\OOP\Homeworks\HW1.1\ExtendedPrism.pas</Transaction>
+    <Transaction>2017.06.15 05:26:49.199.pas,H:\OOP\Homeworks\HW1.1\ExtendedPrism.pas=H:\OOP\Homeworks\HW1.1\Graphics\ExtendedPrism.pas</Transaction>
+  </Transactions>
+</BorlandProject>

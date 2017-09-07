@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#adc46545d81f0158074f941731ae5bb52"><param name="Name" value="_data"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#a6a557d92243a1a4aa0f7a874b3c66a22"><param name="Name" value="_init"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#a95a4914370c936b524ab21ff42177fb8"><param name="Name" value="_num_vowels"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#afffea82d937c3486011b409bcff4c938"><param name="Name" value="_spaces"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#a5c77b083065c497224d3ad4b0b5958de"><param name="Name" value="_vowels"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#aa19ec4d5e0b9ab9cd5f3cf54d9c4c106"><param name="Name" value="consonant_percentage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSentence.html#a9775e8e13161099b03b281a31fcdf050"><param name="Name" value="count"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#a61af6d4fa64014ce6d237657d058c57f"><param name="Name" value="count_consonants"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#a450a0259aba9504e3f7d6d4fa363cd7a"><param name="Name" value="count_vowels"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSentence.html#a5ad2286635c8e8620085b48f81ae2457"><param name="Name" value="counter"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="HW3_81_8cpp.html"><param name="Name" value="HW3.1.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="HW3_81_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627"><param name="Name" value="main"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#a71f14ead088ecaf6941f9c91b75c25c9"><param name="Name" value="print"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSentence.html"><param name="Name" value="Sentence"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSentence.html#a9775e8e13161099b03b281a31fcdf050"><param name="Name" value="count"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSentence.html#a5ad2286635c8e8620085b48f81ae2457"><param name="Name" value="counter"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSentence.html#a3048354db110b3c53f22a0e73f8a2873"><param name="Name" value="Sentence"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSentence.html#a1c2e3f16dbbaf2446a1d1f5ddac694d3"><param name="Name" value="to_str_vec"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#ab02157e87243aad185d0f8f4c33862a4"><param name="Name" value="to_cstr"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#a75606ad31d249369f93c7ad83a6798e4"><param name="Name" value="to_str"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSentence.html#a1c2e3f16dbbaf2446a1d1f5ddac694d3"><param name="Name" value="to_str_vec"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#aa8e6259183ceaa15497d704c4c92b70a"><param name="Name" value="vowel_percentage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html"><param name="Name" value="Word"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#adc46545d81f0158074f941731ae5bb52"><param name="Name" value="_data"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#a6a557d92243a1a4aa0f7a874b3c66a22"><param name="Name" value="_init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#a95a4914370c936b524ab21ff42177fb8"><param name="Name" value="_num_vowels"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#afffea82d937c3486011b409bcff4c938"><param name="Name" value="_spaces"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#a5c77b083065c497224d3ad4b0b5958de"><param name="Name" value="_vowels"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#aa19ec4d5e0b9ab9cd5f3cf54d9c4c106"><param name="Name" value="consonant_percentage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#a61af6d4fa64014ce6d237657d058c57f"><param name="Name" value="count_consonants"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#a450a0259aba9504e3f7d6d4fa363cd7a"><param name="Name" value="count_vowels"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#a71f14ead088ecaf6941f9c91b75c25c9"><param name="Name" value="print"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#ab02157e87243aad185d0f8f4c33862a4"><param name="Name" value="to_cstr"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#a75606ad31d249369f93c7ad83a6798e4"><param name="Name" value="to_str"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#aa8e6259183ceaa15497d704c4c92b70a"><param name="Name" value="vowel_percentage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWord.html#ac6f487c9336bcddcdca8d149d7c3ccb5"><param name="Name" value="Word"></OBJECT>
+  </UL>
+</UL>
+</BODY>
+</HTML>

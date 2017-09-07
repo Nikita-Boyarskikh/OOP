@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Классы"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Классы"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classSentence.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classSentence.html#a3048354db110b3c53f22a0e73f8a2873"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classSentence.html#abd9587431f7092cacbafbab3deb54eac"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classSentence.html#af800b4dfcfb0e36de291ce3bd1c4b151"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classSentence.html#abfcb3ae5846f46f71866330e54288f6e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classSentence.html#a6735a441c8edf1eab29687f70ce6697e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="count"><param name="Local" value="classSentence.html#a9775e8e13161099b03b281a31fcdf050"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="to_str_vec"><param name="Local" value="classSentence.html#a1c2e3f16dbbaf2446a1d1f5ddac694d3"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="counter"><param name="Local" value="classSentence.html#a5ad2286635c8e8620085b48f81ae2457"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Word"><param name="Local" value="classWord.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Word"><param name="Local" value="classWord.html#a17baf7109d46beb48d5b469f3baedc48"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Word"><param name="Local" value="classWord.html#ac6f487c9336bcddcdca8d149d7c3ccb5"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Word"><param name="Local" value="classWord.html#a86290013f4b538ae7aeef2720fc240ee"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Word"><param name="Local" value="classWord.html#a7f27bc6191af83d7fce1a16838081872"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="_init"><param name="Local" value="classWord.html#a6a557d92243a1a4aa0f7a874b3c66a22"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="consonant_percentage"><param name="Local" value="classWord.html#aa19ec4d5e0b9ab9cd5f3cf54d9c4c106"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="count_consonants"><param name="Local" value="classWord.html#a61af6d4fa64014ce6d237657d058c57f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="count_vowels"><param name="Local" value="classWord.html#a450a0259aba9504e3f7d6d4fa363cd7a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="print"><param name="Local" value="classWord.html#a71f14ead088ecaf6941f9c91b75c25c9"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="to_cstr"><param name="Local" value="classWord.html#ab02157e87243aad185d0f8f4c33862a4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="to_str"><param name="Local" value="classWord.html#a75606ad31d249369f93c7ad83a6798e4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="vowel_percentage"><param name="Local" value="classWord.html#aa8e6259183ceaa15497d704c4c92b70a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="_data"><param name="Local" value="classWord.html#adc46545d81f0158074f941731ae5bb52"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="_num_vowels"><param name="Local" value="classWord.html#a95a4914370c936b524ab21ff42177fb8"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="_spaces"><param name="Local" value="classWord.html#afffea82d937c3486011b409bcff4c938"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="_vowels"><param name="Local" value="classWord.html#a5c77b083065c497224d3ad4b0b5958de"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Алфавитный указатель классов"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Иерархия классов"><param name="Local" value="hierarchy.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Word"><param name="Local" value="classWord.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classSentence.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Члены классов"><param name="Local" value="functions.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Указатель"><param name="Local" value="functions.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Функции"><param name="Local" value="functions_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Переменные"><param name="Local" value="functions_vars.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Файлы"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Файлы"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="HW3.1.cpp"><param name="Local" value="HW3_81_8cpp.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="main"><param name="Local" value="HW3_81_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="HW3.1.h"><param name="Local" value="HW3_81_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Word"><param name="Local" value="classWord.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Word"><param name="Local" value="classWord.html#a17baf7109d46beb48d5b469f3baedc48"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Word"><param name="Local" value="classWord.html#ac6f487c9336bcddcdca8d149d7c3ccb5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Word"><param name="Local" value="classWord.html#a86290013f4b538ae7aeef2720fc240ee"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Word"><param name="Local" value="classWord.html#a7f27bc6191af83d7fce1a16838081872"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="_init"><param name="Local" value="classWord.html#a6a557d92243a1a4aa0f7a874b3c66a22"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="consonant_percentage"><param name="Local" value="classWord.html#aa19ec4d5e0b9ab9cd5f3cf54d9c4c106"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="count_consonants"><param name="Local" value="classWord.html#a61af6d4fa64014ce6d237657d058c57f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="count_vowels"><param name="Local" value="classWord.html#a450a0259aba9504e3f7d6d4fa363cd7a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="print"><param name="Local" value="classWord.html#a71f14ead088ecaf6941f9c91b75c25c9"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="to_cstr"><param name="Local" value="classWord.html#ab02157e87243aad185d0f8f4c33862a4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="to_str"><param name="Local" value="classWord.html#a75606ad31d249369f93c7ad83a6798e4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="vowel_percentage"><param name="Local" value="classWord.html#aa8e6259183ceaa15497d704c4c92b70a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="_data"><param name="Local" value="classWord.html#adc46545d81f0158074f941731ae5bb52"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="_num_vowels"><param name="Local" value="classWord.html#a95a4914370c936b524ab21ff42177fb8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="_spaces"><param name="Local" value="classWord.html#afffea82d937c3486011b409bcff4c938"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="_vowels"><param name="Local" value="classWord.html#a5c77b083065c497224d3ad4b0b5958de"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classSentence.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classSentence.html#a3048354db110b3c53f22a0e73f8a2873"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classSentence.html#abd9587431f7092cacbafbab3deb54eac"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classSentence.html#af800b4dfcfb0e36de291ce3bd1c4b151"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classSentence.html#abfcb3ae5846f46f71866330e54288f6e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Sentence"><param name="Local" value="classSentence.html#a6735a441c8edf1eab29687f70ce6697e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="count"><param name="Local" value="classSentence.html#a9775e8e13161099b03b281a31fcdf050"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="to_str_vec"><param name="Local" value="classSentence.html#a1c2e3f16dbbaf2446a1d1f5ddac694d3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="counter"><param name="Local" value="classSentence.html#a5ad2286635c8e8620085b48f81ae2457"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="HW3.1.hpp"><param name="Local" value="HW3_81_8hpp.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Список членов всех файлов"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Указатель"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Функции"><param name="Local" value="globals_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>

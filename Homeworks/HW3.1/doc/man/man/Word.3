@@ -1,0 +1,118 @@
+.TH "Word" 3 "Пн 1 Май 2017" "Домашнее задание №3.1" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Word \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <HW3\&.1\&.h>\fP
+.PP
+Производные классы:\fBSentence\fP\&.
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBWord\fP (const \fBWord\fP &w)"
+.br
+.ti -1c
+.RI "\fBWord\fP (string s)"
+.br
+.ti -1c
+.RI "\fBWord\fP (const char *s)"
+.br
+.ti -1c
+.RI "void \fBprint\fP ()"
+.br
+.ti -1c
+.RI "string \fBto_str\fP ()"
+.br
+.ti -1c
+.RI "void \fBto_cstr\fP (char *arr)"
+.br
+.ti -1c
+.RI "size_t \fBcount_vowels\fP ()"
+.br
+.ti -1c
+.RI "size_t \fBcount_consonants\fP ()"
+.br
+.ti -1c
+.RI "float \fBconsonant_percentage\fP ()"
+.br
+.ti -1c
+.RI "float \fBvowel_percentage\fP ()"
+.br
+.in -1c
+.SS "Защищенные члены"
+
+.in +1c
+.ti -1c
+.RI "\fBWord\fP ()"
+.br
+.ti -1c
+.RI "void \fB_init\fP (const char *s)"
+.br
+.in -1c
+.SS "Защищенные данные"
+
+.in +1c
+.ti -1c
+.RI "string \fB_data\fP"
+.br
+.ti -1c
+.RI "size_t \fB_num_vowels\fP"
+.br
+.ti -1c
+.RI "size_t \fB_spaces\fP"
+.br
+.in -1c
+.SS "Статические защищенные данные"
+
+.in +1c
+.ti -1c
+.RI "static constexpr char \fB_vowels\fP [] = 'AEUIOaeuio'"
+.br
+.in -1c
+.SH "Конструктор(ы)"
+.PP 
+.SS "Word::Word ()\fC [inline]\fP, \fC [protected]\fP"
+
+.SS "Word::Word (const \fBWord\fP & w)\fC [inline]\fP"
+
+.SS "Word::Word (string s)"
+
+.SS "Word::Word (const char * s)"
+
+.SH "Методы"
+.PP 
+.SS "void Word::_init (const char * s)\fC [protected]\fP"
+
+.SS "float Word::consonant_percentage ()"
+
+.SS "size_t Word::count_consonants ()"
+
+.SS "size_t Word::count_vowels ()"
+
+.SS "void Word::print ()"
+
+.SS "void Word::to_cstr (char * arr)"
+
+.SS "string Word::to_str ()"
+
+.SS "float Word::vowel_percentage ()"
+
+.SH "Данные класса"
+.PP 
+.SS "string Word::_data\fC [protected]\fP"
+
+.SS "size_t Word::_num_vowels\fC [protected]\fP"
+
+.SS "size_t Word::_spaces\fC [protected]\fP"
+
+.SS "constexpr char Word::_vowels = 'AEUIOaeuio'\fC [static]\fP, \fC [protected]\fP"
+
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Домашнее задание №3\&.1 из исходного текста\&.

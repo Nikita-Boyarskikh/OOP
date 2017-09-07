@@ -1,0 +1,132 @@
+\hypertarget{HW3_81_8hpp_source}{}\section{H\+W3.1.hpp}
+
+\begin{DoxyCode}
+00001 \textcolor{preprocessor}{#ifndef HW31\_HPP}
+00002 \textcolor{preprocessor}{#define HW31\_HPP}
+00003 
+00004 \textcolor{preprocessor}{#include <cstring>}
+00005 \textcolor{preprocessor}{#include <cmath>}
+00006 \textcolor{preprocessor}{#include <cstdlib>}
+00007 \textcolor{preprocessor}{#include <sstream>}
+00008 \textcolor{preprocessor}{#include <iterator>}
+00009 
+00010 \textcolor{keyword}{using} std::istringstream;
+00011 \textcolor{keyword}{using} std::cout;
+00012 \textcolor{keyword}{using} std::endl;
+00013 
+00014 \textcolor{comment}{// Implementation of Word's methods}
+00015 \textcolor{comment}{// Constants}
+00016 constexpr \textcolor{keywordtype}{char} \hyperlink{classWord_a5c77b083065c497224d3ad4b0b5958de}{Word::\_vowels}[];
+00017 
+00018 \textcolor{comment}{// Private methods}
+\hypertarget{HW3_81_8hpp_source.tex_l00019}{}\hyperlink{classWord_a6a557d92243a1a4aa0f7a874b3c66a22}{00019} \textcolor{keywordtype}{void} \hyperlink{classWord_a6a557d92243a1a4aa0f7a874b3c66a22}{Word::\_init}(\textcolor{keyword}{const} \textcolor{keywordtype}{char} *s) \{
+00020     \hyperlink{classWord_a95a4914370c936b524ab21ff42177fb8}{\_num\_vowels} = 0;
+00021     \hyperlink{classWord_afffea82d937c3486011b409bcff4c938}{\_spaces} = 0;
+00022     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{size\_t} i=0; i<strlen(s); i++) \{
+00023         \textcolor{keywordflow}{if}(s[i] == \textcolor{charliteral}{' '}) \{
+00024             \hyperlink{classWord_afffea82d937c3486011b409bcff4c938}{\_spaces}++;
+00025             i++;
+00026         \}
+00027         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{size\_t} j=0; j<(\textcolor{keyword}{sizeof}(\hyperlink{classWord_a5c77b083065c497224d3ad4b0b5958de}{\_vowels})/\textcolor{keyword}{sizeof}(\hyperlink{classWord_a5c77b083065c497224d3ad4b0b5958de}{\_vowels}[0])); j++) \{
+00028             \textcolor{keywordflow}{if}(s[i] == \hyperlink{classWord_a5c77b083065c497224d3ad4b0b5958de}{\_vowels}[j]) \{
+00029                 \hyperlink{classWord_a95a4914370c936b524ab21ff42177fb8}{\_num\_vowels}++;
+00030                 \textcolor{keywordflow}{break};
+00031             \}
+00032         \}
+00033     \}
+00034 \}
+00035 
+00036 \textcolor{comment}{// Constructors}
+\hypertarget{HW3_81_8hpp_source.tex_l00037}{}\hyperlink{classWord_a86290013f4b538ae7aeef2720fc240ee}{00037} \hyperlink{classWord_a17baf7109d46beb48d5b469f3baedc48}{Word::Word}(\textcolor{keywordtype}{string} s) : \hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\_data}(s) \{
+00038     \hyperlink{classWord_a6a557d92243a1a4aa0f7a874b3c66a22}{\_init}(s.c\_str());
+00039 \}
+00040 
+\hypertarget{HW3_81_8hpp_source.tex_l00041}{}\hyperlink{classWord_a7f27bc6191af83d7fce1a16838081872}{00041} \hyperlink{classWord_a17baf7109d46beb48d5b469f3baedc48}{Word::Word}(\textcolor{keyword}{const} \textcolor{keywordtype}{char} *s) : \hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\_data}(s) \{
+00042     \hyperlink{classWord_a6a557d92243a1a4aa0f7a874b3c66a22}{\_init}(s);
+00043 \}
+00044 
+00045 \textcolor{comment}{// Printer}
+\hypertarget{HW3_81_8hpp_source.tex_l00046}{}\hyperlink{classWord_a71f14ead088ecaf6941f9c91b75c25c9}{00046} \textcolor{keywordtype}{void} \hyperlink{classWord_a71f14ead088ecaf6941f9c91b75c25c9}{Word::print}() \{
+00047     cout<<\hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\_data}<<endl;
+00048 \}
+00049 
+00050 \textcolor{comment}{// Getters}
+\hypertarget{HW3_81_8hpp_source.tex_l00051}{}\hyperlink{classWord_a75606ad31d249369f93c7ad83a6798e4}{00051} \textcolor{keywordtype}{string} \hyperlink{classWord_a75606ad31d249369f93c7ad83a6798e4}{Word::to\_str}() \{
+00052     \textcolor{keywordflow}{return} \hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\_data};
+00053 \}
+00054 
+\hypertarget{HW3_81_8hpp_source.tex_l00055}{}\hyperlink{classWord_ab02157e87243aad185d0f8f4c33862a4}{00055} \textcolor{keywordtype}{void} \hyperlink{classWord_ab02157e87243aad185d0f8f4c33862a4}{Word::to\_cstr}(\textcolor{keywordtype}{char} *arr) \{
+00056     strcpy(arr, \hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\_data}.c\_str());
+00057 \}
+00058 
+00059 \textcolor{comment}{// Counters}
+\hypertarget{HW3_81_8hpp_source.tex_l00060}{}\hyperlink{classWord_a450a0259aba9504e3f7d6d4fa363cd7a}{00060} \textcolor{keywordtype}{size\_t} \hyperlink{classWord_a450a0259aba9504e3f7d6d4fa363cd7a}{Word::count\_vowels}() \{
+00061     \textcolor{keywordflow}{return} \hyperlink{classWord_a95a4914370c936b524ab21ff42177fb8}{\_num\_vowels};
+00062 \}
+00063 
+\hypertarget{HW3_81_8hpp_source.tex_l00064}{}\hyperlink{classWord_a61af6d4fa64014ce6d237657d058c57f}{00064} \textcolor{keywordtype}{size\_t} \hyperlink{classWord_a61af6d4fa64014ce6d237657d058c57f}{Word::count\_consonants}() \{
+00065     \textcolor{keywordflow}{return} \hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\_data}.length() - \hyperlink{classWord_a95a4914370c936b524ab21ff42177fb8}{\_num\_vowels} - \hyperlink{classWord_afffea82d937c3486011b409bcff4c938}{\_spaces};
+00066 \}
+00067 
+\hypertarget{HW3_81_8hpp_source.tex_l00068}{}\hyperlink{classWord_aa19ec4d5e0b9ab9cd5f3cf54d9c4c106}{00068} \textcolor{keywordtype}{float} \hyperlink{classWord_aa19ec4d5e0b9ab9cd5f3cf54d9c4c106}{Word::consonant\_percentage}() \{
+00069     \textcolor{keywordflow}{if}(\hyperlink{classWord_a95a4914370c936b524ab21ff42177fb8}{\_num\_vowels} == \hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\_data}.length()) \textcolor{keywordflow}{return} 0.0;
+00070     \textcolor{keywordflow}{return} fabs((\textcolor{keywordtype}{float})(\hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\_data}.length() - \hyperlink{classWord_a95a4914370c936b524ab21ff42177fb8}{\_num\_vowels} - \hyperlink{classWord_afffea82d937c3486011b409bcff4c938}{\_spaces})/
+      \hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\_data}.length());
+00071 \}
+00072 
+\hypertarget{HW3_81_8hpp_source.tex_l00073}{}\hyperlink{classWord_aa8e6259183ceaa15497d704c4c92b70a}{00073} \textcolor{keywordtype}{float} \hyperlink{classWord_aa8e6259183ceaa15497d704c4c92b70a}{Word::vowel\_percentage}() \{
+00074     \textcolor{keywordflow}{if}(\hyperlink{classWord_a95a4914370c936b524ab21ff42177fb8}{\_num\_vowels} == \hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\_data}.length()) \textcolor{keywordflow}{return} 1.0;
+00075     \textcolor{keywordflow}{return} (\textcolor{keywordtype}{float})\hyperlink{classWord_a95a4914370c936b524ab21ff42177fb8}{\_num\_vowels}/\hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\_data}.length();
+00076 \}
+00077 
+00078 \textcolor{comment}{// Implementation of Sentencese's methods}
+\hypertarget{HW3_81_8hpp_source.tex_l00079}{}\hyperlink{classSentence_abd9587431f7092cacbafbab3deb54eac}{00079} \hyperlink{classSentence_a3048354db110b3c53f22a0e73f8a2873}{Sentence::Sentence}(\textcolor{keywordtype}{string} s) : \hyperlink{classWord}{Word}(s) \{
+00080     \hyperlink{classSentence_a5ad2286635c8e8620085b48f81ae2457}{counter} = 0;
+00081     istringstream iss(s);
+00082     \textcolor{keywordtype}{string} temp;
+00083     \textcolor{keywordflow}{while}(iss>>temp) \hyperlink{classSentence_a5ad2286635c8e8620085b48f81ae2457}{counter}++;
+00084 \}
+00085 
+\hypertarget{HW3_81_8hpp_source.tex_l00086}{}\hyperlink{classSentence_af800b4dfcfb0e36de291ce3bd1c4b151}{00086} \hyperlink{classSentence_a3048354db110b3c53f22a0e73f8a2873}{Sentence::Sentence}(\textcolor{keyword}{const} \textcolor{keywordtype}{char} *s) : \hyperlink{classWord}{Word}(s) \{
+00087     \hyperlink{classSentence_a5ad2286635c8e8620085b48f81ae2457}{counter} = 0;
+00088     istringstream iss(s);
+00089     \textcolor{keywordtype}{string} temp;
+00090     \textcolor{keywordflow}{while}(iss>>temp) \hyperlink{classSentence_a5ad2286635c8e8620085b48f81ae2457}{counter}++;
+00091 \}
+00092 
+\hypertarget{HW3_81_8hpp_source.tex_l00093}{}\hyperlink{classSentence_abfcb3ae5846f46f71866330e54288f6e}{00093} \hyperlink{classSentence_a3048354db110b3c53f22a0e73f8a2873}{Sentence::Sentence}(\hyperlink{classWord}{Word} word) : \hyperlink{classWord}{Word}(word) \{
+00094     \hyperlink{classSentence_a5ad2286635c8e8620085b48f81ae2457}{counter} = 0;
+00095     istringstream iss(word.\hyperlink{classWord_a75606ad31d249369f93c7ad83a6798e4}{to\_str}());
+00096     \textcolor{keywordtype}{string} temp;
+00097     \textcolor{keywordflow}{while}(iss>>temp) \hyperlink{classSentence_a5ad2286635c8e8620085b48f81ae2457}{counter}++;
+00098 \}
+00099 
+00100 \textcolor{comment}{// Constructors}
+\hypertarget{HW3_81_8hpp_source.tex_l00101}{}\hyperlink{classSentence_a6735a441c8edf1eab29687f70ce6697e}{00101} \hyperlink{classSentence_a3048354db110b3c53f22a0e73f8a2873}{Sentence::Sentence}(vector <string> v) \{
+00102     \textcolor{keywordtype}{string} temp, result;
+00103     \hyperlink{classSentence_a5ad2286635c8e8620085b48f81ae2457}{counter} = 0;
+00104     \textcolor{keywordflow}{for}(\textcolor{keyword}{auto} i : v) \{
+00105         istringstream iss(i);
+00106         \textcolor{keywordflow}{while}(iss>>temp) \{
+00107             result += temp;
+00108             \hyperlink{classSentence_a5ad2286635c8e8620085b48f81ae2457}{counter}++;
+00109         \}
+00110     \}
+00111     \hyperlink{classWord_a6a557d92243a1a4aa0f7a874b3c66a22}{\_init}(result.c\_str());
+00112 \}
+00113 
+00114 \textcolor{comment}{// Getters}
+\hypertarget{HW3_81_8hpp_source.tex_l00115}{}\hyperlink{classSentence_a1c2e3f16dbbaf2446a1d1f5ddac694d3}{00115} vector <string> \hyperlink{classSentence_a1c2e3f16dbbaf2446a1d1f5ddac694d3}{Sentence::to\_str\_vec}() \{
+00116     istringstream iss(\hyperlink{classWord_adc46545d81f0158074f941731ae5bb52}{\_data});
+00117     vector <string> result;
+00118     std::copy(std::istream\_iterator <string> (iss), std::istream\_iterator <string> (),
+00119               std::back\_inserter < vector <string> > (result));
+00120     \textcolor{keywordflow}{return} result;
+00121 \}
+00122 
+\hypertarget{HW3_81_8hpp_source.tex_l00123}{}\hyperlink{classSentence_a9775e8e13161099b03b281a31fcdf050}{00123} \textcolor{keywordtype}{size\_t} \hyperlink{classSentence_a9775e8e13161099b03b281a31fcdf050}{Sentence::count}() \{
+00124     \textcolor{keywordflow}{return} \hyperlink{classSentence_a5ad2286635c8e8620085b48f81ae2457}{counter};
+00125 \}
+00126 
+00127 \textcolor{preprocessor}{#endif  // HW31\_HPP}
+\end{DoxyCode}
