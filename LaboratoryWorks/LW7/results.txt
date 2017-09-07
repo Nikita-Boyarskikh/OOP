@@ -1,0 +1,4 @@
+QT - Debug: 0,15s
+QT - Release: 0,12s
+STL - Debug: 0,07s
+STL - Release: 0,05s
